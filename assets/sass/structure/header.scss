@@ -15,6 +15,11 @@
        width: 50px;
        display: block;
     }
+    svg {
+      margin: -56px 0 0 58px;
+       width: 50px;
+       display: block;
+    }
     span {
       font-weight: 100;
       font-style: italic;
@@ -42,14 +47,22 @@
   }
   .by-cu7ious {
     text-align: center;
-    img {
+    // img {
+    //   display: inline-block;
+    //   width: 125px;
+    //   margin: 21px 0 0;
+    // }
+    svg {
       display: inline-block;
       width: 125px;
-      margin: 21px 0 0;
+      margin: 6px 0 0;
     }
     @media screen and (max-width: 700px) {
       text-align: right;
-      img {
+      // img {
+      //   width: 60%;
+      // }
+      svg {
         width: 60%;
       }
     }
